@@ -30,7 +30,7 @@ func main() {
 				atomic.AddUint64(&ops, 1)
 
 				// Wait a bit between increments.
-				time.Sleep(time.Millisecond)
+				time.Sleep(time.Nanosecond)
 			}
 		}()
 	}
